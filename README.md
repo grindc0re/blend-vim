@@ -1,11 +1,12 @@
 # Blend-vim
 A minimal vim colorscheme thant blends in with your dark terminal theme.
 
-* Keywords: Blue
+* Keywords, imports: Blue
 * Strings: Green
 * Functions: Bright white
 * Background: Black
 * Foreground: White
+* Comments: Purple
 
 ## Install
 #### Vundle
