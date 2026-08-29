@@ -57,7 +57,6 @@ call s:hi("StatusLine",     s:white,          "NONE",           "",         "")
 call s:hi("WildMenu",       s:white,          "NONE",           "",         "")
 call s:hi("Pmenu",          s:white,          "NONE",           "",         "")
 call s:hi("PmenuSel",       s:blue,           "NONE",           "",         "")
-call s:hi("VertSplit",      "NONE",           "NONE",           "NONE",     "")
 call s:hi("Cursor",         s:purple,         "NONE",           "",         "")
 call s:hi("ColorColumn",    s:bright_black,   "NONE",           "",         "")
 call s:hi("LineNr",         s:white,          "NONE",           "",         "")
@@ -123,3 +122,5 @@ hi! link jsVariableDef Variable
 hi! link jsExport Keyword
 hi! link jsImport Keyword
 
+" ---- Zig ----
+hi! link zigVarDecl Keyword
