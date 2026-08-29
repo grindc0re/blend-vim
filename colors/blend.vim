@@ -64,6 +64,7 @@ call s:hi("LineNr",         s:white,          "NONE",           "",         "")
 call s:hi("CursorLineNr",   s:bright_white,   s:bright_black,   "NONE",     "")
 call s:hi("CursorLine",     s:bright_white,   s:bright_black,   "NONE",     "")
 call s:hi("SignColumn",     s:white,          "NONE",           "",         "")
+call s:hi("VertSplit",      s:bright_black,   "NONE",           "",         "")
 
 " ---- Language ----
 "         | Group           | fg              | bg              | attr      | guisp
