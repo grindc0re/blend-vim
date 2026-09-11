@@ -52,7 +52,7 @@ endfunction
 
 "         | Group           | fg              | bg              | attr      | guisp
 call s:hi("Normal",         s:white,          "NONE",           "",         "")
-call s:hi("NonText",        s:white,          "NONE",           "",         "")
+call s:hi("NonText",        s:bright_black,   "NONE",           "",         "")
 call s:hi("StatusLine",     s:white,          "NONE",           "",         "")
 call s:hi("WildMenu",       s:white,          "NONE",           "",         "")
 call s:hi("Pmenu",          s:white,          "NONE",           "",         "")
@@ -100,11 +100,15 @@ call s:hi("Todo",           s:yellow,         "NONE",           "",         "")
 call s:hi("Type",           s:bright_white,   "",               "NONE",     "")
 call s:hi("Typedef",        s:white,          "",               "",         "")
 call s:hi("Variable",       s:bright_white,   "",               "",         "")
+call s:hi("WinSeparator",   s:bright_black,   "",               "",         "")
 
 " ---- Git ----
 call s:hi("GitGutterAdd",   s:green,          "NONE",           "",         "")
 call s:hi("GitGutterDelete", s:red,           "NONE",           "",         "")
 call s:hi("GitGutterChange", s:yellow,        "NONE",           "",         "")
+
+" --- NvimTree ---
+hi! link NvimTreeWinSeparator WinSeparator
 
 " --- Links ----
 hi! link Annotation Decorator
