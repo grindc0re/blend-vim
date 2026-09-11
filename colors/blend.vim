@@ -50,20 +50,25 @@ function! s:hi(group, ctermfg, ctermbg, attr, guisp)
 endfunction
 
 
-"         | Group           | fg              | bg              | attr      | guisp
-call s:hi("Normal",         s:white,          "NONE",           "",         "")
-call s:hi("NonText",        s:bright_black,   "NONE",           "",         "")
-call s:hi("StatusLine",     s:white,          "NONE",           "",         "")
-call s:hi("WildMenu",       s:white,          "NONE",           "",         "")
-call s:hi("Pmenu",          s:white,          "NONE",           "",         "")
-call s:hi("PmenuSel",       s:blue,           "NONE",           "",         "")
-call s:hi("Cursor",         s:purple,         "NONE",           "",         "")
-call s:hi("ColorColumn",    s:bright_black,   "NONE",           "",         "")
-call s:hi("LineNr",         s:white,          "NONE",           "",         "")
-call s:hi("CursorLineNr",   s:bright_white,   s:bright_black,   "NONE",     "")
-call s:hi("CursorLine",     s:bright_white,   s:bright_black,   "NONE",     "")
-call s:hi("SignColumn",     s:white,          "NONE",           "",         "")
-call s:hi("VertSplit",      s:bright_black,   "NONE",           "",         "")
+"         | Group             | fg              | bg              | attr      | guisp
+call s:hi("Cursor",           s:purple,         "NONE",           "",         "")
+call s:hi("ColorColumn",      s:bright_black,   "NONE",           "",         "")
+call s:hi("CursorLineNr",     s:bright_white,   s:bright_black,   "NONE",     "")
+call s:hi("CursorLine",       s:bright_white,   s:bright_black,   "NONE",     "")
+call s:hi("Normal",           s:white,          "NONE",           "",         "")
+call s:hi("NonText",          s:bright_black,   "NONE",           "",         "")
+call s:hi("LineNr",           s:white,          "NONE",           "",         "")
+call s:hi("Pmenu",            s:black,          s:white,          "",         "")
+call s:hi("PmenuSel",         s:blue,           s:black,          "NONE",     "")
+call s:hi("SignColumn",       s:white,          "NONE",           "",         "")
+call s:hi("StatusLine",       "NONE",           s:bright_black,   "NONE",     "")
+call s:hi("StatusLineNC",     s:bright_black,   s:black,          "",         "")
+call s:hi("StatusLineTerm",   s:black,          s:black,          "",         "")
+call s:hi("StatusLineTermNC", s:bright_black,   s:black,          "",         "")
+call s:hi("WildMenu",         s:white,          "NONE",           "",         "")
+call s:hi("VertSplit",        s:bright_black,   "NONE",           "",         "")
+call s:hi("Visual",           s:bright_white,   s:bright_black,   "",         "")
+call s:hi("WinSeparator",     s:bright_black,   "NONE",           "",         "")
 
 " ---- Language ----
 "         | Group           | fg              | bg              | attr      | guisp
@@ -100,7 +105,6 @@ call s:hi("Todo",           s:yellow,         "NONE",           "",         "")
 call s:hi("Type",           s:bright_white,   "",               "NONE",     "")
 call s:hi("Typedef",        s:white,          "",               "",         "")
 call s:hi("Variable",       s:bright_white,   "",               "",         "")
-call s:hi("WinSeparator",   s:bright_black,   "",               "",         "")
 
 " ---- Git ----
 call s:hi("GitGutterAdd",   s:green,          "NONE",           "",         "")
