@@ -65,6 +65,8 @@ call s:hi("StatusLine",       "NONE",           s:bright_black,   "NONE",     ""
 call s:hi("StatusLineNC",     s:bright_black,   s:black,          "",         "")
 call s:hi("StatusLineTerm",   s:black,          s:black,          "",         "")
 call s:hi("StatusLineTermNC", s:bright_black,   s:black,          "",         "")
+call s:hi("TabLine",          s:bright_black,   s:black,          "NONE",     "")
+call s:hi("TabLineSel",       s:white,          s:black,          "bold",     "")
 call s:hi("WildMenu",         s:white,          "NONE",           "",         "")
 call s:hi("VertSplit",        s:bright_black,   "NONE",           "",         "")
 call s:hi("Visual",           s:bright_white,   s:bright_black,   "",         "")
