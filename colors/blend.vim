@@ -62,7 +62,7 @@ call s:hi("Pmenu",            s:black,          s:white,          "",         ""
 call s:hi("PmenuSel",         s:blue,           s:black,          "NONE",     "")
 call s:hi("SignColumn",       s:white,          "NONE",           "",         "")
 call s:hi("StatusLine",       "NONE",           s:bright_black,   "NONE",     "")
-call s:hi("StatusLineNC",     s:bright_black,   s:black,          "",         "")
+call s:hi("StatusLineNC",     s:bright_black,   s:black,          "NONE",     "")
 call s:hi("StatusLineTerm",   s:black,          s:black,          "",         "")
 call s:hi("StatusLineTermNC", s:bright_black,   s:black,          "",         "")
 call s:hi("TabLine",          s:bright_black,   s:black,          "NONE",     "")
